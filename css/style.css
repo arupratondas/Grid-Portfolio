@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h5{
+    text-align: center;
+}
+
+h5 a{
+    margin-top: 12px;
+    background: #5b2d69;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    /* box-shadow: 0 0 5px #08080887; */
+    /* border-bottom: 5px solid #b1a0a0; */
+    transition: all 0.4s;
+    /* display: block; */
+    /* max-width: 50%; */
+    display: inline-block;
+}
+
+
+.container{
+    width: 1200px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+/* grid project css*/
+.box-3{
+    width: 33.33%;
+    height: 25%;
+    float: left;
+    padding: 5px;
+}
+.box-1{
+    width: 100%;
+    height: 25%;
+    float: left;
+    padding: 5px;
+}
+.box-2{
+    width: 50%;
+    height: 25%;
+    float: left;
+    padding: 5px;
+}
+.box-4{
+    width: 70%;
+    height: 25%;
+    float: left;
+    padding: 5px;
+}
+.box-5{
+    width: 15%;
+    height: 25%;
+    float: left;
+    padding: 5px;
+}
+.bg-org{
+    background-color: orange;
+    height: 100%;
+}
+.bg-blu{
+    background-color: blue;
+    height: 100%;
+}
+.bg-yel{
+    background-color: #feff00;
+    height: 100%;
+}
+.bg-gre{
+    background-color: gray;
+    height: 100%;
+}
+.bg-per{
+    background-color: purple;
+    height: 100%;
+}
+
+/* index file css*/
+.project-link{
+    text-align: center;
+    
+}
+.project-link li{
+    list-style: none;
+    display: inline;
+}
+.project-link li a{
+    background: #5b2d69;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #08080887;
+    border-bottom: 5px solid #b1a0a0;
+    transition: all 0.4s
+}
+
+.project-link li a:hover{
+    background-color: cadetblue;
+}
+
+/****portfolio****/
+
+
+.container2{
+    width: 1200px;
+	margin: 0 auto;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*margin-top: 50px;*/
+    overflow: hidden;
+}
+.service{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.service-content{
+    background: #dad9d9;
+    padding: 25px;
+    box-shadow: 4px 5px 3px #00000078;
+}
+.service-content p{}
+.service-content h2{}
+
+   
+.Portfolio-section{
+    background-color: #ece7e7;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+.Portfolio-section h1{
+    font-size: 45px;
+    /* text-transform: uppercase; */
+    /* font-style: oblique; */
+    color: #553d7b;
+}
+.portfolio{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.portfolio img{
+    max-width: 100%;
+    display: block;
+    box-shadow: 4px 5px 3px #0a0a0a9c;
+}
+
+/* Logo and Nav bar*/
+
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    /*padding: 10px 20px;*/
+   /* max-width: 100%;
+    display: block;
+    width: 80%*/
+	margin: 50px 0;
+
+}
+
+nav{
+    width: 80%;
+    float: left;
+    text-align: right;
+    margin: 50px 0;
+    padding: 8px;
+}
+nav ul{
+    list-style: none;  
+    float: right; 
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;padding: 18px 0;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #553d7b;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+
+}
+nav ul li a:hover{
+    background-color: #333;
+    color:#fff;
+}
+/* Logo and Nav bar End*/
